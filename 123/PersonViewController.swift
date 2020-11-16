@@ -46,7 +46,7 @@ class PersonViewController: UIViewController,UITableViewDelegate,UITableViewData
 //        print(elements[indexPath.row])
 //    }
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print(elements[indexPath.row])
+        //print(elements[indexPath.row])
        namee = elements[indexPath.row]
     }
     @IBAction func backbuttonPressed(_ sender: UIButton) {
